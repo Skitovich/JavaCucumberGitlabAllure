@@ -13,5 +13,5 @@ test:
 deploy:
   stage: deploy
   script:
-    - gradle allure-gradle:report
+    - gradle allureReport
 
