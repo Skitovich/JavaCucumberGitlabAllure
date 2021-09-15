@@ -1,0 +1,11 @@
+image: gradle:latest
+
+cache:
+  paths:
+    - .m2/repository/
+    - target/
+
+test:
+  stage: test
+  script:
+    - ./gradlew clean test
