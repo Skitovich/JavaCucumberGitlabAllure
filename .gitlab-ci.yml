@@ -8,4 +8,4 @@ cache:
 test:
   stage: test
   script:
-    - ./gradlew clean test
+    - gradlew clean test
