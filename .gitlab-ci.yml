@@ -8,4 +8,10 @@ cache:
 test:
   stage: test
   script:
-    - ./gradlew clean test
+    - gradle clean test
+
+deploy:
+  stage: deploy
+  script:
+    - gradle io.qameta.allure:allure-gradle:report
+
