@@ -13,5 +13,5 @@ test:
 deploy:
   stage: deploy
   script:
-    - gradle io.qameta.allure:allure-gradle:report
+    - gradle allure-gradle:report
 
