@@ -31,7 +31,6 @@ allure {
     autoconfigure = true
     aspectjweaver = true
     version = allureVer
-    clean = true
 
     reportDir = file("$buildDir/allure-report")
 
